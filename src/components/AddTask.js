@@ -48,7 +48,7 @@ export const AddTask = ({
         .then(() => {
           setTask('');
           setProject('');
-          setShowMain('');
+          setShowMain(false);
           setShowProjectOverlay(false);
         })
     );
